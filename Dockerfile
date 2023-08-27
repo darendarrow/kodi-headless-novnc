@@ -230,7 +230,7 @@ CMD ["/docker-entrypoint.sh"]
 EXPOSE 5900/tcp
 
 # HTTP (noVNC)
-EXPOSE 8000/tcp
+EXPOSE 8001/tcp
 
 # Kodi HTTP API
 EXPOSE 8080/tcp
