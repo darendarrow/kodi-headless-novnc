@@ -19,6 +19,7 @@ RUN apt-get update -y \
     curl \
     default-jre \
     default-libmysqlclient-dev \
+    ffmpeg \
     flatbuffers-compiler \
     flatbuffers-compiler-dev \
     g++  \
