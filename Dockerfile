@@ -19,7 +19,6 @@ RUN apt-get update -y \
     curl \
     default-jre \
     default-libmysqlclient-dev \
-    ffmpeg \
     flatbuffers-compiler \
     flatbuffers-compiler-dev \
     g++  \
@@ -136,6 +135,7 @@ RUN mkdir -p /tmp/xbmc/build \
     -DENABLE_CEC=OFF \
     -DENABLE_DBUS=OFF \
     -DENABLE_DVDCSS=OFF \
+    -DENABLE_INTERNAL_FFMPEG=ON \
     -DENABLE_INTERNAL_CROSSGUID=OFF \
     -DENABLE_INTERNAL_KISSFFT=OFF \
     -DENABLE_INTERNAL_RapidJSON=OFF \
